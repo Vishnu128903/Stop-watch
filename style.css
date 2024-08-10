@@ -1,0 +1,51 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,rgb(78, 7, 232), black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#display{
+    width: 250px;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+.buttons{
+    width: 250px;
+}
+#start{
+    width: 80px;
+    height: 30px;
+    padding: auto;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#stop{
+    width: 80px;
+    height: 30px;
+    padding: auto;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#reset{
+    width: 80px;
+    height: 30px;
+    padding: auto;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 2px 2px 50px 10px #fff08f;
+}
